@@ -51,35 +51,35 @@ void goForward() {
     tlc_setServo(13, 90 + turning + offset + amplitude * cos(frequency * counter * 3.14159 / 180 + 5 * lag)); //actually pin3
     tlc_setServo(2, 90 + turning + offset + amplitude * cos(frequency * counter * 3.14159 / 180 + 4 * lag)); //actually pin4
     tlc_setServo(3, 90 + turning + offset + amplitude * cos(frequency * counter * 3.14159 / 180 + 3 * lag)); //actually pin4
-    tlc_setServo(4, 90 + turning  + offset+ amplitude * cos(frequency * counter * 3.14159 / 180 + 2 * lag)); //actually pin5
-    tlc_setServo(5, 90 + turning  + offset+ amplitude * cos(frequency * counter * 3.14159 / 180 + 1 * lag)); //actually pin5
-    tlc_setServo(6, 90 + turning  + offset+ amplitude * cos(frequency * counter * 3.14159 / 180 + 0 * lag)); //actually pin5
-    tlc_setServo(7, 90 + turning  + offset+ amplitude * cos(frequency * counter * 3.14159 / 180 + -1 * lag)); //actually pin5
-    tlc_setServo(8, 90 + turning  + offset+ amplitude * cos(frequency * counter * 3.14159 / 180 + -2 * lag)); //actually pin6
-    tlc_setServo(9, 90 + turning  + offset+ amplitude * cos(frequency * counter * 3.14159 / 180 - 3 * lag)); //actually pin7
-    tlc_setServo(10, 90 + turning  + offset+ amplitude * cos(frequency * counter * 3.14159 / 180 - 4 * lag)); //actually pin8
-    tlc_setServo(11, 90 + turning  + offset+ amplitude * cos(frequency * counter * 3.14159 / 180 - 5 * lag)); //actually pin9
-    tlc_setServo(12, 90 + turning  + offset+ amplitude * cos(frequency * counter * 3.14159 / 180 - 6 * lag)); //actually pin10
+    tlc_setServo(4, 90 + turning  + offset + amplitude * cos(frequency * counter * 3.14159 / 180 + 2 * lag)); //actually pin5
+    tlc_setServo(5, 90 + turning  + offset + amplitude * cos(frequency * counter * 3.14159 / 180 + 1 * lag)); //actually pin5
+    tlc_setServo(6, 90 + turning  + offset + amplitude * cos(frequency * counter * 3.14159 / 180 + 0 * lag)); //actually pin5
+    tlc_setServo(7, 90 + turning  + offset + amplitude * cos(frequency * counter * 3.14159 / 180 + -1 * lag)); //actually pin5
+    tlc_setServo(8, 90 + turning  + offset + amplitude * cos(frequency * counter * 3.14159 / 180 + -2 * lag)); //actually pin6
+    tlc_setServo(9, 90 + turning  + offset + amplitude * cos(frequency * counter * 3.14159 / 180 - 3 * lag)); //actually pin7
+    tlc_setServo(10, 90 + turning  + offset + amplitude * cos(frequency * counter * 3.14159 / 180 - 4 * lag)); //actually pin8
+    tlc_setServo(11, 90 + turning  + offset + amplitude * cos(frequency * counter * 3.14159 / 180 - 5 * lag)); //actually pin9
+    tlc_setServo(12, 90 + turning  + offset + amplitude * cos(frequency * counter * 3.14159 / 180 - 6 * lag)); //actually pin10
     Tlc.update();
   }
 }
 
 void goReverse() {
-  
-  for (counter = 360; counter >0; counter -= 1)  {
+
+  for (counter = 360; counter > 0; counter -= 1)  {
     delay(delayTime);
-    tlc_setServo(13, 90 +reoffset+amplitude * cos(frequency * counter * 3.14159 / 180 + 6 * lag)); //actually pin3
-    tlc_setServo(2, 90  +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 + 5 * lag)); //actually pin4
-    tlc_setServo(3, 90  +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 + 4 * lag)); //actually pin4
-    tlc_setServo(4, 90  +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 + 3 * lag)); //actually pin5
-    tlc_setServo(5, 90  +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 + 2 * lag)); //actually pin5
-    tlc_setServo(6, 90  +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 + 1 * lag)); //actually pin5
-    tlc_setServo(7, 90  +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 + 0 * lag)); //actually pin5
-    tlc_setServo(8, 90  +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 + -1 * lag)); //actually pin6
-    tlc_setServo(9, 90  +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 - 2 * lag)); //actually pin7
-    tlc_setServo(10, 90 +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 - 3 * lag)); //actually pin8
-    tlc_setServo(11, 90 +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 - 4 * lag)); //actually pin9
-    tlc_setServo(12, 90  +reoffset+ amplitude * cos(frequency * counter * 3.14159 / 180 - 5 * lag)); //actually pin10
+    tlc_setServo(13, 90 + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 + 6 * lag)); //actually pin3
+    tlc_setServo(2, 90  + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 + 5 * lag)); //actually pin4
+    tlc_setServo(3, 90  + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 + 4 * lag)); //actually pin4
+    tlc_setServo(4, 90  + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 + 3 * lag)); //actually pin5
+    tlc_setServo(5, 90  + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 + 2 * lag)); //actually pin5
+    tlc_setServo(6, 90  + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 + 1 * lag)); //actually pin5
+    tlc_setServo(7, 90  + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 + 0 * lag)); //actually pin5
+    tlc_setServo(8, 90  + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 + -1 * lag)); //actually pin6
+    tlc_setServo(9, 90  + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 - 2 * lag)); //actually pin7
+    tlc_setServo(10, 90 + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 - 3 * lag)); //actually pin8
+    tlc_setServo(11, 90 + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 - 4 * lag)); //actually pin9
+    tlc_setServo(12, 90  + reoffset + amplitude * cos(frequency * counter * 3.14159 / 180 - 5 * lag)); //actually pin10
     Tlc.update();
   }
 }
@@ -143,7 +143,7 @@ void loop() {
     Serial.println("going rev");
     goReverse();
     goReverse();
-     goReverse();
+    goReverse();
     if (wallDistanceLeft > wallDistanceRight) {
       Serial.println("going left");
       turning = +12;
