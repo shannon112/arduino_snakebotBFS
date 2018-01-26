@@ -42,9 +42,10 @@ https://www.slideshare.net/secret/LLT19T6d6qpLEm
 https://youtu.be/LhGwtlYbl1c  
 <img src="https://raw.githubusercontent.com/shannon112/arduino_snakebotBFS/master/image03.png" width="500">
 
-### Final report
+### Final report pdf
 https://zh.scribd.com/document/370053494/%E6%A9%9F%E5%99%A8%E4%BA%BA%E7%B0%A1%E4%BB%8B%E6%9C%9F%E6%9C%AB%E6%9B%B8%E9%9D%A2%E5%A0%B1%E5%91%8A-Google-%E6%96%87%E4%BB%B6
-<img src="https://raw.githubusercontent.com/shannon112/arduino_snakebotBFS/master/image04.png" width="500">
 
-  
+### Team member
+shannon112, magonmonkey, 謝孟儒, 李宜修, 葉柏毅  
+  
 
